@@ -48,12 +48,6 @@ public abstract class Passenger {
     }
 
     public void reservationDetails(){
-        System.out.println(name+" reserved car: "+reservedCar.getCode()+
-                "\nsubscriptionType: non subscribed"+
-                "\npickUp loc: "+ reservedCar.getFixedRoute().getPickUp()+
-                "\ndestination: "+ reservedCar.getFixedRoute().getDestination()+
-                "\nprice is: "+  tripCost);
-
     }
 
     public abstract void reservation(Car car) throws Exception;

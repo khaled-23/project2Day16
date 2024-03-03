@@ -44,30 +44,6 @@ public class Main {
         }
 
 
-//        try {
-//            sp1.reservation(car1);
-//            sp1.reservationDetails();
-//        } catch (Exception e) {
-//            System.out.println(e);
-//        }
-//        System.out.println("without discount:-");
-//        try {
-//            nsp1.reservation(car1);
-//            nsp1.reservationDetails();
-//        } catch (Exception e) {
-//            System.out.println(e);
-//        }
-//        System.out.println("after discount:-");
-//        try {
-//            nsp1.setDiscountCoupon(true);
-//            nsp1.reservation(car1);
-//            nsp1.reservationDetails();
-//        } catch (Exception e) {
-//            System.out.println(e);
-//        }
-//
-
-
 
     }
 }
